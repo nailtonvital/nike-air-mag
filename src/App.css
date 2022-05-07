@@ -9,7 +9,7 @@ header{
   justify-content: space-between;
   align-items: center;
   min-height: 70px;
-  background-color: rgb(67, 112, 96);
+  background-color: rgb(27, 38, 59);
   color: white;
 }
 
@@ -22,9 +22,36 @@ nav a {
   margin-left: 25px;
   font-size: 20px;
   color: white;
+} 
+body{
+overflow-y: hidden;
+overflow-x: hidden;
+}
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #151515;
+  height: 100vh;
+  
 }
 
-main{
-  background-color: rgb(67, 112, 96);
-  height: 500px;
+.word {
+  font-family: 'Montserrat';
+  color: white;
+  position: absolute;
+  font-size: 200px;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+
+.word p{
+  margin:0;
+}
+
+.word span{
+  -webkit-text-stroke: 2px rgb(255, 255, 255);
+  color: transparent;
 }
