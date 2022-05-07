@@ -26,11 +26,6 @@ main{
   text-transform: uppercase;
 }
 
-
-.word p{
-  margin:0;
-}
-
 .word span{
   -webkit-text-stroke: 2px rgb(255, 255, 255);
   color: transparent;
