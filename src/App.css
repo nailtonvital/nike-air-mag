@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  padding-inline: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70px;
+  background-color: rgb(67, 112, 96);
+  color: white;
+}
+
+.logo{
+  font-size: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 20px;
+  color: white;
+}
+
+main{
+  background-color: rgb(67, 112, 96);
+  height: 500px;
+}
